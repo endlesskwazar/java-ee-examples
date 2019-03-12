@@ -1,0 +1,26 @@
+<web-app  xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+    version="4.0">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddPersonController</servlet-name>
+  	<display-name>AddPersonController</display-name>
+  	<description></description>
+  	<servlet-class>jstl.beans.controller.AddPersonController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ListPersonController</servlet-name>
+  	<display-name>ListPersonController</display-name>
+  	<description></description>
+  	<servlet-class>jstl.beans.controller.ListPersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddPersonController</servlet-name>
+  	<url-pattern>/AddPersonController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ListPersonController</servlet-name>
+  	<url-pattern>/ListPersonController</url-pattern>
+  </servlet-mapping>
+</web-app>
